@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1635892112357E0005068C /* DSCameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1635882112357E0005068C /* DSCameraHandler.swift */; };
+		3A16358B211241030005068C /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16358A211241030005068C /* UIExtensions.swift */; };
+		3A16358D211249310005068C /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16358C211249310005068C /* ColorCell.swift */; };
 		3A7841732112345600294B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7841722112345600294B3C /* AppDelegate.swift */; };
-		3A7841752112345600294B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7841742112345600294B3C /* ViewController.swift */; };
+		3A7841752112345600294B3C /* PaletteHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7841742112345600294B3C /* PaletteHomeViewController.swift */; };
 		3A7841782112345600294B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7841762112345600294B3C /* Main.storyboard */; };
 		3A78417A2112345700294B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7841792112345700294B3C /* Assets.xcassets */; };
 		3A78417D2112345700294B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78417B2112345700294B3C /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A1635882112357E0005068C /* DSCameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSCameraHandler.swift; sourceTree = "<group>"; };
+		3A16358A211241030005068C /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		3A16358C211249310005068C /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		3A78416F2112345600294B3C /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7841722112345600294B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A7841742112345600294B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7841742112345600294B3C /* PaletteHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteHomeViewController.swift; sourceTree = "<group>"; };
 		3A7841772112345600294B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7841792112345700294B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A78417C2112345700294B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				3A7841722112345600294B3C /* AppDelegate.swift */,
-				3A7841742112345600294B3C /* ViewController.swift */,
+				3A7841742112345600294B3C /* PaletteHomeViewController.swift */,
+				3A16358A211241030005068C /* UIExtensions.swift */,
 				3A7841762112345600294B3C /* Main.storyboard */,
+				3A16358C211249310005068C /* ColorCell.swift */,
+				3A1635882112357E0005068C /* DSCameraHandler.swift */,
 				3A7841792112345700294B3C /* Assets.xcassets */,
 				3A78417B2112345700294B3C /* LaunchScreen.storyboard */,
 				3A78417E2112345700294B3C /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7841752112345600294B3C /* ViewController.swift in Sources */,
+				3A7841752112345600294B3C /* PaletteHomeViewController.swift in Sources */,
 				3A7841732112345600294B3C /* AppDelegate.swift in Sources */,
+				3A1635892112357E0005068C /* DSCameraHandler.swift in Sources */,
+				3A16358D211249310005068C /* ColorCell.swift in Sources */,
+				3A16358B211241030005068C /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pcook.Palette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -458,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pcook.Palette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
